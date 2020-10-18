@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+    width: 100%;
+     height: 100px; 
+    margin: 100px auto;
+    clear: both;
+    
+}
+
+#cat_image {
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+#cat_image1 {
+    width: 100%;
+    height: 200px;
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #349915;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 5px solid #349915;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 24px 50px;
+    text-decoration: none;
+    
+}
+
+.navigation a.active{
+    background-color: white;
+}
+
+.content{
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 90px;
+    left: auto;
+    right: auto;
+}
+#ul{
+    margin-top: 30px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+    
+}
+#a{
+    margin-right: 400px;
+}
+#b{
+    margin-left: 800px;
+    margin-top: -110px;
+    width: 100%;
+    color: blue;
+    text-decoration: underline;
+}
+#c{
+        margin-left: -50px;
+    margin-top: -100px;
+    
+
+}
+
+.content1{
+    float: left;
+    width: 250px;
+    padding: 30px;
+    position: relative;
+    z-index: -10;
+}
+
+.footer{
+    height: 300px;
+    text-align: center;
+    background-color: #349915;
+    color: white;
+        clear: both;
+}
+
+.footer p{
+    padding: 140px 0px;
+}
+
